@@ -1,0 +1,16 @@
+# 本地凭据与环境配置
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 可重新安装的依赖
+node_modules/
+.venv/
+__pycache__/
+
+# 临时文件与系统文件
+*.log
+.DS_Store
+Thumbs.db
